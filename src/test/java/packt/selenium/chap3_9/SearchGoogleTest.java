@@ -23,7 +23,7 @@ public class SearchGoogleTest {
     public void setUp() throws Exception {
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(2, TimeUnit.MINUTES);
+       // driver.manage().timeouts().implicitlyWait(2, TimeUnit.MINUTES);
     }
     @After
     public void tearDown() throws Exception {
